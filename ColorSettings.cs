@@ -30,10 +30,6 @@ namespace Game2024
             BS_CS_Select_TextColor.BackColor = ColorMethods.BackColor;
             BS_CS_Select_TextColor.ForeColor = ColorMethods.ForeColor;
             BS_CS_Select_TextColor.FlatAppearance.BorderColor = ColorMethods.ForeColor;
-
-            BS_CS_Apply.BackColor = ColorMethods.BackColor;
-            BS_CS_Apply.ForeColor = ColorMethods.ForeColor;
-            BS_CS_Apply.FlatAppearance.BorderColor = ColorMethods.ForeColor;
         }
         private void ColorSettings_Load(object sender, EventArgs e)
         {
@@ -63,18 +59,6 @@ namespace Game2024
                 }
             }
             SetControlsColors();
-        }
-
-        private void BS_CS_Apply_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Apply settings", "Configuration Manager", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            {
-                using (GameForm gfi = new GameForm())
-                {
-                    gfi.BackColor = ColorMethods.BackColor;
-                    gfi.ForeColor = ColorMethods.ForeColor;
-                }
-            }
         }
     }
 }
