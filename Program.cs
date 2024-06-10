@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Game2048
+namespace Game15
 {
     internal static class Program
     {

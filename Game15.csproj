@@ -47,12 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\ColorMethods.cs" />
-    <Compile Include="ColorSettings.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ColorSettings.Designer.cs">
-      <DependentUpon>ColorSettings.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Classes\Data.cs" />
     <Compile Include="GameForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,9 +56,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ColorSettings.resx">
-      <DependentUpon>ColorSettings.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>
     </EmbeddedResource>

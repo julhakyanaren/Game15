@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2024.Classes
+namespace Game15.Classes
 {
     public static class ColorMethods
     {
